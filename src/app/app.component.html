@@ -8,4 +8,10 @@
     <app-add-car></app-add-car>
   </section>
   <hr>
+  <section class="display_elements">
+    <app-display-element
+      *ngFor="let element of elements"
+      [singleElement] = element
+    >{{ element }}</app-display-element>
+  </section>
 </main>

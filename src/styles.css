@@ -36,3 +36,18 @@ body {
 hr {
   border-top: 1px solid #D3D3D3;
 }
+
+.display_elements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single_display_element_container {
+  width: 150px;
+  background-color: #00FFFF;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
