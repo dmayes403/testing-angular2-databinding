@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-band.component.css']
 })
 export class AddBandComponent implements OnInit {
-
+  currentBand = '';
+  
   constructor() { }
 
   ngOnInit() {

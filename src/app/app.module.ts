@@ -18,7 +18,8 @@ import { DisplayElementComponent } from './display-element/display-element.compo
     DisplayElementComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
