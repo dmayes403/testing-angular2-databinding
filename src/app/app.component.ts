@@ -13,4 +13,16 @@ export class AppComponent {
 
   ngOnInit() {
   }
+
+  onBandCreated(bandData: {bandName: string}) {
+    this.elements.push(bandData.bandName)
+  }
+
+  onCarCreated(carData: {carName: string}) {
+    this.elements.push(carData.carName);
+  }
+
+  onMovieCreated(movieData: {movieName: string}) {
+    this.elements.push(movieData.movieName)
+  }
 }

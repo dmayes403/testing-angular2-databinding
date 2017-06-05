@@ -3,9 +3,9 @@
     <h1>Add Some Stuff</h1>
   </section>
   <section class="main_button_container">
-    <app-add-band></app-add-band>
-    <app-add-movie></app-add-movie>
-    <app-add-car></app-add-car>
+    <app-add-band (bandCreated)=onBandCreated($event)></app-add-band>
+    <app-add-movie (movieCreated)=onMovieCreated($event)></app-add-movie>
+    <app-add-car (carCreated)=onCarCreated($event)></app-add-car>
   </section>
   <hr>
   <section class="display_elements">
