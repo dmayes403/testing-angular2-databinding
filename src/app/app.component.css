@@ -1,0 +1,24 @@
+.main_container {
+  width: 60%;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid orange;
+  border-radius: 5px;
+
+}
+
+.header_title {
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  height: 50px;
+  padding-top: 8px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
